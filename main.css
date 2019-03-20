@@ -1,0 +1,100 @@
+.container {
+    width: 1280px;
+    font-family: 'Poppins', sans-serif;
+}
+.main-view {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-image: url(img/shake_hand.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    color:white;
+    margin: 0;
+}
+
+.main-view-logo {
+    float: left;
+}
+
+.main-view-menu {
+    float: right;
+}
+
+.main-view-text {
+    height: 10em;
+    position: relative;
+    font-size: 32px;
+}
+
+.main-view-text-large {
+    margin: 0;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.main-view-text-small {
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.main-view-button {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(241, 109, 61);
+    width: 200px;
+    border-radius: 40px;
+    margin-top: 75px;
+    padding: 2px 5px 2px 5px;
+}
+
+.main-view-button-text {
+    font-size: 13px;
+}
+
+.main-view-button-circle-one {
+  width:3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: rgb(240, 142, 107);
+  margin-left: 10px;
+}
+
+.main-view-button-circle-two {
+    width:3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color:rgb(238, 122, 80);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main-view-button-circle-three {
+    width:3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+
+.main-view-button-icon {
+    width: 35px;
+    height: 35px;
+    background: rgb(238, 112, 66);
+    border-radius: 3px;
+}
