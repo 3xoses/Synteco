@@ -1,6 +1,11 @@
-.container {
-    width: 1280px;
+body {
     font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+}
+
+.main-view-container{
+    width: 1220px;
+    margin: 0 auto;
 }
 .main-view {
     position: absolute;
@@ -18,6 +23,10 @@
 
 .main-view-logo {
     float: left;
+}
+.main-view-logo img {
+    width: 70%;
+    height: 70%;
 }
 
 .main-view-menu {
